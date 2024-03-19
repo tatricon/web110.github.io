@@ -2,6 +2,17 @@ h1 {
 	color: orange;
 }
 
+table {
+	border: 3px solid black;
+	margin:auto;
+	text-align: center;
+}
+
+th {
+	background-color: orange;
+	font-size: 36px;
+}
+
 /*	
 p {
 	color:red;
@@ -36,10 +47,21 @@ a {
 
 .header {
 	border: 1px solid black;
+	border-radius: 15px;
 }
 
 .nav {
 	border: 1px solid black;	
+}
+
+.red_circle {
+	width: 100px;
+	height: 100px;
+	background: radial-gradient(circle, green, crimson, orange, blue);
+	border-radius: 0px 25px 0px 25px;
+	color: white;
+	border: 10px dashed black;
+	margin-left: 30%;
 }
 
 .article {
