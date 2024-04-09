@@ -25,7 +25,64 @@ p {
 	}
 */
 a {
-	color: white;
+	color: blue;
+}
+
+a:hover {
+	color: crimson;
+}
+
+a:active {
+	color: black;
+}
+
+a:visited {
+	text-decoration-color: green;
+}
+
+a:focus {
+	color: orange;
+}
+	
+.play_btn {
+	color: green;
+	font-size: 40px;
+}
+
+.play_btn:hover {
+	color: black;
+	font-size: 40px;
+}
+
+.pause_btn {
+	color: gray;
+	font-size: 50px;
+}
+
+.pause_btn:hover {
+	color: black;
+	font-size: 50px;
+}
+
+.h_img {
+	width: 200px;
+}
+
+.h_img:hover {
+	transform: scale(.9);
+}
+
+.player {
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 200px;
+	width: 200px;
+	background-color: #DDDDDDDD;
+	text-align: center;
+}
+
+.vert_slider {
+	transform: rotate(270deg);
 }
 
 .form_bg {
@@ -33,6 +90,9 @@ a {
 	background-color: rgba(255, 255, 255, 80%);
 	width: 100%;
 }
+
+
+
 
 iframe {
 	width: 100%;
